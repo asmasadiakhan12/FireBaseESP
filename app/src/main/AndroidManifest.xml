@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.firebaseaapo">
+    <!-- Bluetooth permissions required for Android versions below 12 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- Location permissions required for Bluetooth scanning -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Additional Bluetooth permissions required for Android 12 and above -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" tools:targetApi="31" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" tools:targetApi="31" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" tools:targetApi="31" />
+
+    <!-- Permission for Internet access (required for sending emails) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission for accessing network state (optional, but useful for checking connectivity) -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Firebaseaapo"
+        tools:targetApi="31">
+
+        <!-- Declare the MainActivity as the launcher activity and set android:exported -->
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+
+
+</manifest>
+
+
+
+
+
+
+
+

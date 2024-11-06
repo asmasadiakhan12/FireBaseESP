@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "969737162044",
+    "firebase_url": "https://health-monitoring-30b75-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "health-monitoring-30b75",
+    "storage_bucket": "health-monitoring-30b75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969737162044:android:f6778985236165143d2239",
+        "android_client_info": {
+          "package_name": "com.example.firebaseaapo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq6UtGRCPYad1LT80U7FKbu4XGjCfvVuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

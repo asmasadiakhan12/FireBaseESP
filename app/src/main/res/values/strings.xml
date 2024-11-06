@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">firebaseaapo</string>
+    <string name="bpm_text">BPM: %1$.2f</string>
+
+    <!-- String for SpO2 Text -->
+    <string name="spo2_text">SpO2: %1$.2f</string>
+
+    <!-- String for Temperature Text -->
+    <string name="temperature_text">Temperature: %1$.2f °C</string>
+
+    <!-- String for Prediction Text -->
+    <string name="prediction_text">Prediction: %1$s</string>
+</resources>

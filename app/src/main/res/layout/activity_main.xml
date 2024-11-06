@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Email input for alerts -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Email for Alerts:"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to save email -->
+    <Button
+        android:id="@+id/saveEmailButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Email"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to connect to Bluetooth -->
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect to Bluetooth Device"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Status TextView to display connection status and other info -->
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Not Connected"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- TextViews to display sensor data -->
+    <TextView
+        android:id="@+id/bpmTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BPM: N/A"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/spo2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SpO2: N/A"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tempTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature: N/A"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- TextView to display model prediction result -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prediction: N/A"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
